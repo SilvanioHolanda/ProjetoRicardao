@@ -1,0 +1,42 @@
+<ion-header>
+  <ion-toolbar>
+
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/lista-funcionarios"></ion-back-button>
+    </ion-buttons>
+
+    <ion-title>Chama o Ricardão!</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+    <ion-item>
+      <ion-label class="label">Nome</ion-label>
+      <ion-input class="label"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label class="label">Sexo</ion-label>
+      <ion-list>
+        <ion-radio-group name="auto">
+          <ion-item>
+            <ion-label class="label">Masculino</ion-label>
+            <ion-radio value="Maxo"></ion-radio>
+          </ion-item>
+          <ion-item>
+            <ion-label class="label">Meninx</ion-label>
+            <ion-radio value="Numsei"></ion-radio>
+          </ion-item>
+        </ion-radio-group>
+      </ion-list>
+    </ion-item>
+    <ion-item>
+      <ion-label class="label">Função</ion-label>
+      <ion-input class="label"></ion-input>
+    </ion-item>
+  </ion-list>
+
+  <ion-button expand="full" shape="round" (click)="cadastrar()">
+    Cadastrar
+  </ion-button>
+</ion-content>
