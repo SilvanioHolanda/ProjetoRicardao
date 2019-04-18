@@ -3,11 +3,11 @@ ion-content{
 }
 
 ion-list {
-    --ion-item-background: rgba(255, 255, 255, 0.0);
+    --ion-item-background: rgba(255, 255, 255, 0);
 }
 
 ion-item {
-    --ion-item-background: rgba(255, 255, 255, 0.3);
+    --ion-item-background: rgba(255, 255, 255, 0);
     color: white;
 }
 
@@ -15,7 +15,7 @@ ion-item {
     text-align: center;
     color: white;
     font-size: 30px;
-    margin-top: 100px;
+    margin-top: 180px;
 }
 
 #mensagem{
